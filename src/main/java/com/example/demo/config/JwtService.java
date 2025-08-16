@@ -1,2 +1,10 @@
-package com.example.demo.config;public class JwtService {
+package com.example.demo.config;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class JwtService {
+    public String extractUsername(String token) {
+        return null;
+    }
 }
